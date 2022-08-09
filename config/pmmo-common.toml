@@ -389,7 +389,7 @@
 	maxJumpBoost = 0.0
 	#How much speed boost you can get from Agility (100 = 100% vanilla + 100% = twice as fast max)
 	#Range: 0.0 ~ 1.0E9
-	maxSpeedBoost = 10.0
+	maxSpeedBoost = 100.0
 	#How much your chance to save each point of fall damage increases per level (1 = 1% increase per Level)
 	#Range: 0.0 ~ 100.0
 	saveChancePerLevel = 64.0
@@ -398,7 +398,7 @@
 	levelsPerSprintJumpBoost = 1.0
 	#How much speed boost you get from each level (1 = 1% speed boost per level)
 	#Range: 0.0 ~ 100.0
-	speedBoostPerLevel = 0
+	speedBoostPerLevel = 1
 
 [Endurance]
 	#Per how many levels you gain 1 Max Heart
@@ -522,7 +522,7 @@
 [Crafting]
 	#How much xp should be awarded in Crafting for each item crafted? (Json Overrides this) (Set to 0 to disable default xp)
 	#Range: 0.0 ~ 1000000.0
-	defaultCraftingXp = 0.0
+	defaultCraftingXp = 10.0
 	#Should xp values for crafting be enabled? false means the default value is used
 	xpValueCraftingEnabled = true
 
@@ -537,7 +537,7 @@
 [Slayer]
 	#How much slayer xp is awarded upon killing an aggresive mob by default
 	#Range: 0.0 ~ 10000.0
-	aggresiveMobSlayerXp = 0.0
+	aggresiveMobSlayerXp = 10.0
 
 [Hunter]
 	#How much hunter xp is awarded upon killing a passive mob by default
